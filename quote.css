@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #091413, #285a48, #408a71, #b0e4cc);
+}
+.container {
+  margin-top: 10%;
+  height: 45vh;
+  width: 85vw;
+  background-color: #778873;
+  border-radius: 20px;
+}
+.heading {
+  text-decoration: underline;
+  padding-top: 10px;
+  color: #06202b;
+}
+.quote-container {
+  width: 87%;
+  height: 52%;
+  background-color: #31694e;
+  margin: 2% 6%;
+  border-radius: 10px;
+}
+.message {
+  width: 85%;
+  height: 50%;
+  margin: 2% 7% 0;
+  padding-top: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 20px;
+  font-family: cursive;
+  color: #a1bc98;
+}
+.names {
+  width: 55%;
+  height: 14%;
+  margin-left: 7%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  float: right;
+  color: #dccfc0;
+}
+.quote-button {
+  width: 20%;
+  height: 11%;
+  text-align: center;
+  float: right;
+  margin-right: 7%;
+  font-size: 14px;
+  font-style: oblique;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #213a31;
+  color: #96b98a;
+  cursor: pointer;
+}
+.quote-button:hover {
+  background-color: #96b98a;
+  color: #213a31;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin-top: 30%;
+    height: 50vh;
+  }
+  .heading {
+    font-size: 29px;
+  }
+  .quote-container {
+    height: 58%;
+    margin: 5% 6%;
+  }
+  .message {
+    height: 68%;
+    margin: 9% 7%;
+    padding-top: 8px;
+    font-size: 19px;
+  }
+  .names {
+    width: 86%;
+    text-align: left;
+    float: none;
+  }
+  .quote-button {
+    width: 46%;
+  }
+}
