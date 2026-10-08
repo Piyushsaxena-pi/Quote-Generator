@@ -4,7 +4,8 @@ A lightweight web app that displays a random motivational quote and its author e
 
 🔗 **Live demo:** [View the app](https://piyushsaxena-pi.github.io/Quote-Generator/) <!-- update after deploying -->
 
-![Quote Generator Screenshot](./screenshot.png) <!-- add a screenshot or GIF -->
+![Quote Generator Screenshot]<img width="1345" height="632" alt="Screenshot 2026-10-08 232505" src="https://github.com/user-attachments/assets/49488310-6fcc-4196-b79f-2fc899f00fdb" />
+
 
 ## ✨ Features
 
